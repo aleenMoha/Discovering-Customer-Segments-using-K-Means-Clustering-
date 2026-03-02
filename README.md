@@ -1,133 +1,98 @@
-📊 CS435 – Clustering Assignment
-👩🏻‍🎓 Student Information
+# 📊 CS435 – Clustering Assignment
 
-Course: CS435 – Machine Learning
-Assignment: Clustering (Assignment 2)
-Student: Aleen
+## 👩🏻‍🎓 Course Information
+- **Course:** CS435 – Machine Learning  
+- **Assignment:** Clustering (Assignment 2)  
+- **Student:** Aleen  
 
-📌 Project Overview
+---
 
-This project implements and analyzes unsupervised machine learning (Clustering) techniques.
-The goal is to group data points into meaningful clusters without labeled outputs and evaluate clustering performance using different metrics.
+## 📌 Project Overview
 
-The assignment explores how clustering algorithms behave under different configurations and how to interpret clustering results.
+This project explores **unsupervised machine learning techniques**, specifically clustering algorithms.  
+The objective is to group unlabeled data into meaningful clusters and evaluate the quality of those clusters using appropriate metrics.
 
-🧠 Algorithms Implemented
+The assignment focuses on understanding clustering behavior, parameter tuning, and result interpretation.
 
-The following clustering techniques were applied:
+---
 
-✅ K-Means Clustering
+## 🧠 Algorithms Implemented
 
-✅ Hierarchical Clustering
+The following clustering algorithms were applied and analyzed:
 
-Each algorithm was analyzed in terms of:
+- ✅ K-Means Clustering  
+- ✅ Hierarchical Clustering  
+- ✅ DBSCAN (if implemented)
 
-Cluster formation
+Each algorithm was examined in terms of:
+- Cluster formation
+- Distance metrics
+- Parameter sensitivity
+- Visualization of results
 
-Distance measurement
+---
 
-Sensitivity to parameters
+## 📊 Data Preprocessing
 
-Visualization of results
+To ensure accurate clustering results, the following preprocessing steps were performed:
 
-📈 Evaluation Metrics
+- Handling missing values (if applicable)
+- Feature scaling (Standardization / Normalization)
+- Data visualization before clustering
 
-To assess clustering performance, the following metrics were used:
+Feature scaling is especially important for distance-based algorithms like K-Means.
 
-Silhouette Score
+---
 
-Inertia (for K-Means)
+## 📈 Evaluation Metrics
 
-Dendrogram Analysis (for Hierarchical Clustering)
+Clustering performance was evaluated using:
+
+- **Silhouette Score**
+- **Inertia (K-Means)**
+- **Elbow Method**
+- **Dendrogram Analysis (Hierarchical Clustering)**
 
 These metrics help determine:
+- Optimal number of clusters
+- Cluster compactness
+- Cluster separation quality
 
-Optimal number of clusters
+---
 
-Cluster separation quality
+## 📷 Visualizations Included
 
-Compactness of clusters
+The notebook contains:
 
-📊 Data Preprocessing
+- Cluster scatter plots
+- Elbow method graphs
+- Silhouette score comparisons
+- Dendrogram plots
 
-The following preprocessing steps were performed:
+---
 
-Handling missing values (if applicable)
+## 🛠️ Technologies Used
 
-Feature scaling (Standardization/Normalization)
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-Data visualization before clustering
+---
 
-Preprocessing ensures better cluster quality and fair distance calculations.
+##🎯 Key Learning Outcomes
 
-🛠️ Technologies Used
+- Understanding unsupervised learning concepts
+- Comparing different clustering techniques
+- Evaluating cluster quality using metrics
+- Determining the optimal number of clusters
+- Visual interpretation of clustering results
 
-Python
+---
 
-NumPy
+##📌 Conclusion
 
-Pandas
-
-Matplotlib / Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-▶️ How to Run the Project
-Option 1: Using Jupyter Notebook
-
-Clone the repository:
-
-git clone https://github.com/your-username/your-repository-name.git
-
-Navigate to the project folder:
-
-cd your-repository-name
-
-Install required libraries:
-
-pip install numpy pandas matplotlib seaborn scikit-learn
-
-Open the notebook:
-
-jupyter notebook
-
-Run all cells.
-
-Option 2: Using Google Colab
-
-Upload the notebook file
-
-Run all cells
-
-Ensure required libraries are installed
-
-📷 Output
-
-The notebook includes:
-
-Cluster visualizations
-
-Elbow method graphs
-
-Silhouette score comparison
-
-Dendrogram plots (for hierarchical clustering)
-
-📌 Key Learnings
-
-Understanding how unsupervised learning differs from supervised learning
-
-Importance of feature scaling in distance-based algorithms
-
-How to determine optimal number of clusters
-
-Strengths and weaknesses of different clustering techniques
-
-📎 Repository Structure
-CS435_Clustering_Assignment2.ipynb
-README.md
-⭐ Notes
-
-This project was completed as part of the CS435 Machine Learning course to strengthen understanding of clustering algorithms and evaluation techniques.
+This assignment demonstrates practical implementation of clustering algorithms and highlights the importance of preprocessing, parameter tuning, and evaluation in unsupervised machine learning.

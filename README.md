@@ -83,7 +83,7 @@ The notebook contains:
 
 ---
 
-##🎯 Key Learning Outcomes
+## 🎯 Key Learning Outcomes
 
 - Understanding unsupervised learning concepts
 - Comparing different clustering techniques
@@ -93,6 +93,6 @@ The notebook contains:
 
 ---
 
-##📌 Conclusion
+## 📌 Conclusion
 
 This assignment demonstrates practical implementation of clustering algorithms and highlights the importance of preprocessing, parameter tuning, and evaluation in unsupervised machine learning.
